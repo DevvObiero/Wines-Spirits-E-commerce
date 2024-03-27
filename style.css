@@ -229,3 +229,56 @@ padding-bottom: 15px;
   #product1 h2{
     color: #222;
   }
+
+  #product1{
+    text-align: center;
+    
+  }
+
+  #product1 .pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 20px;
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+  transition: 0.2s ease;
+}
+#product1 .pro:hover{
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+  
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  #product1 .pro .description{
+    text-align: start;
+    padding: 10px 0;
+  }
+
+  
+  #product1 .pro .description span{
+    color: #606063;
+    font-size: 12px;
+  }
+
+  #product1 .pro .description h5{
+    padding-top: 7px;
+    color:#1a1a1a ;
+    font-size: 14px;
+  }
+
+  #product1 .pro .description i{
+    color:goldenrod;
+    font-size: 12px;
+  }
+
+  #product1 .pro .description h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight:700 ;
+    color: teal;
+  }
+  
