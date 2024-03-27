@@ -17,7 +17,7 @@ h1 {
   font-size: 50px;
   line-height: 64px;
   /* color: #222; */
-  color:azure;
+  /* color:azure; */
 }
 
 h2 {
@@ -69,7 +69,10 @@ justify-content: space-between;
 padding: 20px 80px;
 background: #e3e6f3;
 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-
+z-index: 999;
+position: sticky;
+top: 0;
+left: 0;
 }
 
 #navbar{
@@ -123,4 +126,106 @@ box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
    background-size: cover; 
    background-position: top  25% right 0;
    padding: 0 80px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   flex-direction: column;
 }
+
+#hero h4 {
+padding-bottom: 15px;
+}
+
+#hero h1 {
+  color: teal;
+} 
+
+#hero p{
+  font-weight: 800;
+  color:#fff;
+}
+
+#hero button{
+  background-color: teal;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.6 ease;
+}
+
+#hero button:hover{
+  box-shadow: rgba(7, 135, 202, 0.8) 0 0 90px 33px;
+  
+  color: white;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+#hero button:active{
+  box-shadow: none;
+}
+
+#feature .fe-box{
+   width: 180px;
+   text-align: center;
+   padding: 25px 15px;
+   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+   border: 1px solid #cce7d0;
+   border-radius: 4px;
+   margin:15px 0 ;
+  }
+
+  #feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  #feature .fe-box:hover{
+    box-shadow:10px 10px 54px rgba(70, 62, 223, 0.2);
+  }
+
+  #feature .fe-box h6{
+    padding: 9px  8px 6px 8px ;
+    color: turquoise;
+    display: inline-block;
+  
+  }
+
+  #feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+    
+  }
+
+  #feature .fe-box:nth-child(2) h6{
+    color:pink;
+  }
+  #feature .fe-box:nth-child(3) h6{
+    color:lightgreen;
+  }
+  #feature .fe-box:nth-child(4) h6{
+    color:lightskyblue;
+  }
+  #feature .fe-box:nth-child(5) h6{
+    color:plum;
+  }
+  #feature .fe-box:nth-child(6) h6{
+    color:orange;
+  }
+
+  /* exclusive selection */
+
+  #product1 h2{
+    color: #222;
+  }
