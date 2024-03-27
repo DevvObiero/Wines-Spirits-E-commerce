@@ -243,6 +243,7 @@ padding-bottom: 15px;
   border-radius: 20px;
   box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
   transition: 0.2s ease;
+  position: relative;
 }
 #product1 .pro:hover{
   box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
@@ -281,4 +282,26 @@ padding-bottom: 15px;
     font-weight:700 ;
     color: teal;
   }
+
+  #product1 .pro .cart{
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 50px;
+   background-color: #e8f6ea;
+   font-weight: 500;
+   color: teal;
+   border: 1px solid #cce7d0;
+   position: absolute;
+   bottom: 20px;
+   right: 10px;
+  }
   
+  #product1 .pro-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    
+  }
