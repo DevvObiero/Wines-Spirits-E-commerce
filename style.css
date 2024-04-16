@@ -366,3 +366,20 @@ padding-bottom: 15px;
     background-color: teal;
     color: #fff;
   }
+
+  #sm_banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://ke-thebar-business.agiza.io/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBblVFIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--472c15cce9bec91f87030a9118381883d8164942/Chrome%20Gin.png");
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #sm_banner h1{
+    color: teal
+  }
