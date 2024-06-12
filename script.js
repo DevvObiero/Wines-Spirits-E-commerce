@@ -17,6 +17,4 @@ if (bar) {
 }
 
  // JavaScript code to toggle the black color on the icon
-document.getElementById('bar').addEventListener('click', function() {
-    this.classList.toggle('black-icon');
-});
+
