@@ -134,6 +134,9 @@ left: 0;
   display: none;
   align-items: center;
 }
+#close{
+  display: none;
+}
 
 /* #navbar li a.active::after{
   /* content: ""; */
@@ -207,13 +210,13 @@ padding-bottom: 15px;
 }
 
 #feature .fe-box{
-   width: 180px;
+   width: 170px;
    text-align: center;
    padding: 25px 15px;
    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
    border: 1px solid #cce7d0;
    border-radius: 4px;
-   margin:15px 0 ;
+   margin:10px 0 ;
   }
 
   #feature{
@@ -276,7 +279,9 @@ padding-bottom: 15px;
   box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
   transition: 0.2s ease;
   position: relative;
+  margin: 15px 0;
 }
+
 #product1 .pro:hover{
   box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
 }
@@ -331,7 +336,7 @@ padding-bottom: 15px;
   
   #product1 .pro-container{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 20px;
@@ -560,6 +565,11 @@ footer .colf :hover{
 
 /* resposnivemess */
 @media (max-width:799px){
+ .section-p1{
+  padding:40px 40px;
+ }
+
+
   #navbar {
     display: flex;
     flex-direction: column;
@@ -596,5 +606,74 @@ footer .colf :hover{
     top: 20px;
     left:30px;
     font-size: 24px;
+    display: initial;
   }
+  #lg-bag{
+    display: none;
+  }
+  #hero{
+    height: 70vh;
+    padding: 0 70px;
+    background-position:top 30% right 30% ;
+  }
+
+  #feature{
+    justify-content: center;
+  }
+  #feature .fe-box{
+    margin:15px 15px;
+   }
+   #product1 .pro-container{
+   justify-content: center;
+    
+  }
+  #product1 .pro{
+    margin: 15px;;
+  }
+  #banner{
+    height: 20vh;
+  }
+
+  #sm_banner .banner-box{
+    min-width: 100%;
+    height: 30vh;}
+  
+  #newsletter .form{
+    width: 70%;
+  }
+  
+}
+
+@media (max-width:477px) {
+  #header {
+    padding: 10px 30px;
+    
+  }
+  
+  #hero {
+    padding: 0 20px;
+    background-position: 55%;
+}
+h2{
+  font-size: 32px;
+}
+h1{
+  font-size: 38px;
+}
+.section-p1{
+  padding:20px;
+}
+#feature .fe-box {
+  width: 155px;
+  margin: 0 0 15px 0;
+}
+#feature{
+  justify-content: space-between;
+}
+#product1 .pro {
+width: 100%;
+}
+#banner{
+  height: 40vh;
+}
 }
