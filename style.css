@@ -746,8 +746,8 @@ font-weight: 600;
 
 
 #prodetails .single-pro-image{
-  width: 35%;
-  margin-right: 50px;
+  width: 30%;
+  margin-right: 40px;
   border-radius:10px;
 }
 
@@ -780,4 +780,34 @@ font-weight: 600;
   font-size: 16px;
   border-radius: 5px;
   margin-right: 10px;
+}
+
+.fa-solid.fa-cart-shopping {
+  font-size: 27px; /* Adjust the size of the icon */
+  color:#12343b; /* Change the color of the icon */
+  background-color:  #c89666; /* Set the background color */
+  padding: 10px; /* Adjust padding if you want space around the icon */
+  border-radius: 50%; /* Make the background color circular */
+  background-size: cover; /* Adjust background size if needed */
+  display: inline-block; /* Ensure it behaves like a block element */
+}
+.fa-cart-shopping:hover {
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+#prodetails .single-pro-details input:focus {
+  outline: none;
+}
+
+#prodetails .single-pro-details span{
+  line-height: 25px;
 }
