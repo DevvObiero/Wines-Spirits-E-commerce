@@ -734,3 +734,37 @@ font-weight: 600;
 
 
  /* ending of shopping navigation buttons */
+
+ /* single product */
+ 
+ #pro-details .single-pro-image{
+  width: 30%;
+  margin-right: 50px;
+ }
+ 
+ #pro-details .single-pro-image img{
+  width: 100%;
+ }
+ #product11 .pro{
+  width: 30%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 20px;
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+  transition: 0.2s ease;
+  position: relative;
+  margin: 15px 0;
+}
+
+#product11 .pro:hover{
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+#product11 .pro img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+#pro-details{
+  display: flex;
+}
