@@ -796,18 +796,25 @@ font-weight: 600;
   background-size: cover; /* Adjust background size if needed */
   display: inline-block; /* Ensure it behaves like a block element */
 }
-.fa-cart-shopping:hover {
-  animation: beat 1s infinite;
+
+/* .fa-cart-shopping */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
 }
 
-@keyframes beat {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
+.cart:hover {
+  animation: bounce 2s infinite;
 }
+
+
 
 #prodetails .single-pro-details input:focus {
   outline: none;
