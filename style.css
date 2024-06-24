@@ -673,6 +673,11 @@ h1{
 #product1 .pro {
 width: 100%;
 }
+
+#product1 .pro a:hover {
+  cursor: pointer;
+} 
+
 #banner{
   height: 40vh;
 }
