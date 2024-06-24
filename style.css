@@ -809,6 +809,9 @@ font-weight: 600;
     transform: translateY(-5px);
   }
 }
+.fa-cart-shopping {
+  animation: bounce 2s infinite;
+}
 
 .cart:hover {
   animation: bounce 2s infinite;
