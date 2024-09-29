@@ -3,7 +3,7 @@
 https://winesandspiritsmigori.netlify.app/
 
 ## About this PROJECTS
-I got a relative who needs an E commerce website for his  wines & spirits
+I've got a relative who needs an E commerce website for his  wines & spirits
 business
 
 ## Knowledge I applied in this project
