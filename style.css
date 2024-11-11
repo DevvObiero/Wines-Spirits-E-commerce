@@ -351,11 +351,13 @@ padding-bottom: 15px;
     text-align: center;
     background-image: url("https://c4.wallpaperflare.com/wallpaper/512/132/908/minimalism-monochrome-black-background-walking-johnnie-walker-hd-wallpaper-preview.jpg");
     width: 100%;
-    height: 40vh;
+    height: 50%;
     background-size: cover;
     background-position: center;
+    padding: 150px;
    
   }
+  
   #banner h2{
     color:darkgoldenrod;
     font-size: 4vh;
@@ -726,8 +728,8 @@ width: 100%;
 }
 
 }
-
 @media (max-width:850px) {
+
   .section-p1{
     padding:40px;
   }
