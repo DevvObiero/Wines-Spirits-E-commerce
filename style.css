@@ -705,15 +705,15 @@ width: 100%;
 .input-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* This ensures the input and button are aligned properly */
+  justify-content: flex-start; 
 }
 
 .input-container input {
-  margin-right: 10px; /* Optional: Add space between the input and button */
+  margin-right: 10px; 
 }
 
 .normal {
-  background-color: #007bff; /* Change as needed */
+  background-color: #007bff;
   color: white;
   padding: 10px 20px;
   border: none;
