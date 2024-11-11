@@ -652,7 +652,7 @@ footer .colf :hover{
   
   #hero {
     padding: 0 20px;
-    background-position: 55%;
+    background-position: 100%;
 }
 h2{
   font-size: 32px;
@@ -661,11 +661,12 @@ h1{
   font-size: 38px;
 }
 .section-p1{
-  padding:20px;
+  padding:30px;
 }
 #feature .fe-box {
   width: 155px;
-  margin: 0 0 15px 0;
+  margin: 10px 0 15px 0;
+  
 }
 #feature{
   justify-content: space-between;
@@ -687,8 +688,8 @@ width: 100%;
 #prodetails{
   display: flex;
   flex-direction: column;
-  align-items: center;
-/* }
+  /* align-items: center; */
+ }
 
 #prodetails .single-pro-image{
   width: 100%;
@@ -698,17 +699,38 @@ width: 100%;
 #prodetails .single-pro-details{
   width: 100%;
   align-items: center;
-} */
-#prodetails .single-pro-image {
-  width: 100%;
-  margin: 0 auto; /* Centers image within #prodetails */
+} 
+
+/* button */
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* This ensures the input and button are aligned properly */
 }
 
-#prodetails .single-pro-details {
-  width: 100%; /* Ensures full width of details section */
-  margin: 0 auto; /* Centers content within container */
-  text-align: center; /* Centers text within this section */
+.input-container input {
+  margin-right: 10px; /* Optional: Add space between the input and button */
 }
+
+.normal {
+  background-color: #007bff; /* Change as needed */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.normal a {
+  color: white; /* Ensure the link inside the button is white */
+  text-decoration: none; /* Remove underline from the link */
+}
+
+}
+
+@media (max-width:850px) {
+  .section-p1{
+    padding:40px;
+  }
 }
 
 
