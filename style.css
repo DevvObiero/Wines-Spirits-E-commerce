@@ -731,6 +731,22 @@ width: 100%;
   .section-p1{
     padding:40px;
   }
+  #prodetails{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+   }
+  
+  #prodetails .single-pro-image{
+    width: 100%;
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  #prodetails .single-pro-details{
+    width: 100%;
+    align-items: center;
+  } 
+  
 }
 
 
