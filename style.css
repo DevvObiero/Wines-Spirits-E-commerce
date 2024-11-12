@@ -133,6 +133,9 @@ body {
 #close:hover {
   color: teal;
 }
+#lg-bag:hover {
+  color: teal;
+}
 
 /* #navbar li a.active::after{
   /* content: ""; */
@@ -580,10 +583,12 @@ footer .colf :hover {
     left: 30px;
     font-size: 24px;
     display: initial;
+    cursor: pointer;
   }
   #lg-bag {
     display: none;
   }
+
   #hero {
     height: 70vh;
     padding: 0 70px;
