@@ -877,6 +877,7 @@ footer .colf :hover {
   display: flex;
   align-items: center;
   width: 100%;
+  position: relative;
 }
 
 #blog .blog-img {
@@ -908,14 +909,14 @@ footer .colf :hover {
   content: "";
   width: 50px;
   height: 1px;
-  background-color: #000;
+  background-color: #deb286;
   position: absolute;
   top: 4px;
   right: -60px;
 }
 
 #blog .blog-details a:hover {
-  color: #000;
+  color: #deb286;
   transition: 0.3s;
 }
 
@@ -923,5 +924,12 @@ footer .colf :hover {
   background-color: teal;
 }
 
-#blog .blog-details h1 {
+#blog .blog-box h1 {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  font-size: 57px;
+  font-weight: 700;
+  color: #deb286;
+  z-index: -9;
 }
