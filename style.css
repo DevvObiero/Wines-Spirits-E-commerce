@@ -869,3 +869,22 @@ footer .colf :hover {
 #page-header.blog-header h2 {
   color: rgb(93, 10, 5);
 }
+
+#blog {
+  padding: 150px 150px 0px 150px;
+}
+#blog .blog-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#blog .blog-img {
+  width: 50%;
+  height: 300px;
+}
+
+#blog img {
+  width: 100%;
+  height: 300px;
+}
