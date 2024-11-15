@@ -1045,3 +1045,7 @@ footer .colf :hover {
   border-radius: 2px;
   border: 1px solid #e1e1e1;
 }
+#form-details form button {
+  background-color: #008080;
+  color: whitesmoke;
+}
