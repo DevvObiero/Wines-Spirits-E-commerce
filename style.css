@@ -989,11 +989,13 @@ footer .colf :hover {
 #contact-details .details {
   width: 40%;
 }
-#contact-details .details span {
+#contact-details .details span,
+#form-details form span {
   font-size: 12px;
 }
 
-#contact-details .details h2 {
+#contact-details .details h2,
+#form-details form h2 {
   font-size: 26px;
   line-height: 35px;
   padding: 20px 0;
@@ -1031,4 +1033,15 @@ footer .colf :hover {
 
 #form-details form {
   width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+#form-details form input,
+#form-details form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  border: 1px solid #e1e1e1;
 }
