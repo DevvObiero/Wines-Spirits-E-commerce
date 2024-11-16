@@ -737,7 +737,16 @@ footer .colf :hover {
   #contact-details .map {
     width: 100% !important;
   }
-  #form-detail;
+  #form-details {
+    margin: 10px !important;
+    padding: 30px 10px !important;
+    flex-wrap: wrap !important;
+  }
+
+  #form-details form {
+    width: 100% !important;
+    margin-bottom: 30px !important;
+  }
 }
 
 @media (max-width: 850px) {
