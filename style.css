@@ -738,14 +738,13 @@ footer .colf :hover {
     width: 100% !important;
   }
   #form-details {
-    margin: 10px !important;
-    padding: 30px 10px !important;
-    flex-wrap: wrap !important;
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
   }
 
   #form-details form {
-    width: 100% !important;
-    margin-bottom: 30px !important;
+    width: 90% !important;
   }
 }
 
@@ -753,6 +752,7 @@ footer .colf :hover {
   .section-p1 {
     padding: 40px;
   }
+
   #prodetails {
     display: flex;
     flex-direction: column;
@@ -1075,6 +1075,7 @@ footer .colf :hover {
   display: flex;
   flex-direction: column;
 }
+
 #form-details form input,
 #form-details form textarea {
   width: 100%;
