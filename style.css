@@ -1031,6 +1031,14 @@ footer .colf :hover {
   height: 100%;
 }
 
+#form-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 80px;
+  border: 1px solid gainsboro;
+}
+
 #form-details form {
   width: 65%;
   display: flex;
@@ -1049,4 +1057,29 @@ footer .colf :hover {
   background-color: #008080;
   color: whitesmoke;
   margin-bottom: 20px;
+}
+.people img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin-right: 15px;
+}
+
+#form-details .people div {
+  padding-bottom: 25px;
+  display: flex;
+  align-items: flex-start;
+}
+#form-details .people div p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 25px;
+}
+#form-details .people div p span {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: teal;
 }
