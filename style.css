@@ -741,10 +741,12 @@ footer .colf :hover {
     margin: 10px;
     padding: 30px 10px;
     flex-wrap: wrap;
+    width: 100%;
   }
 
   #form-details form {
-    width: 90% !important;
+    width: 100% !important;
+    max-width: 600px;
   }
 }
 
