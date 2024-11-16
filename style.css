@@ -724,6 +724,20 @@ footer .colf :hover {
   #blog .blog-details {
     width: 100% !important;
   }
+
+  /* contact */
+
+  #contact-details {
+    flex-direction: column;
+  }
+  #contact-details .details {
+    width: 100% !important; /*for some reason ,media quesries forces me to use !important to enforce the changes call me commander Paul😂😂*/
+    margin-bottom: 30px;
+  }
+  #contact-details .map {
+    width: 100% !important;
+  }
+  #form-detail;
 }
 
 @media (max-width: 850px) {
@@ -744,6 +758,14 @@ footer .colf :hover {
   #prodetails .single-pro-details {
     width: 100%;
     align-items: center;
+  }
+
+  /* contact */
+  #form-details {
+    padding: 40px !important;
+  }
+  #form-details form {
+    width: 40% !important;
   }
 }
 
