@@ -3,14 +3,16 @@
 https://winesandspiritsmigori.netlify.app/
 
 ## About this PROJECTS
-I've got a relative who needs an E commerce website for his  wines & spirits
+
+I've got a relative who needs an E commerce website for his wines & spirits
 business
 
 ## Knowledge I applied in this project
+
 - Responsive Ecommerce Website Tutorial Using HTML CSS & JavaScript.
 - Completely For Beginners.
 - Multipage Ecommerce Website Project.
--  How to build amazing professional and responsive websites.
+- How to build amazing professional and responsive websites.
 - The fundamentals of web design.
 - Modern CSS, including flexbox and CSS Grid for layout.
 - Modern CSS techniques to create stunning designs and effects.
@@ -19,6 +21,7 @@ business
 - And Many More.
 
 ## Sections
+
 - Part1: Responsive Home Page Design.
 - Part2: Shop Page & Single Product Page.
 - Part3: Blog Page.
@@ -26,3 +29,4 @@ business
 - Part5: Contact Us.
 - Part6: Ecommerce Shopping Cart.
 
+I LOVE THIS SO MUCH
